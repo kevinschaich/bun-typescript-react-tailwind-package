@@ -1,0 +1,21 @@
+{
+    "name": "bun-typescript-react-tailwind-package",
+    "module": "src/index.ts",
+    "type": "module",
+    "scripts": {
+        "build": "bun build.ts",
+        "watch": "bun --watch build.ts"
+    },
+    "devDependencies": {
+        "@types/react": "^18",
+        "bun-plugin-dts": "latest",
+        "bun-types": "latest",
+        "prettier": "^3"
+    },
+    "peerDependencies": {
+        "typescript": "^5"
+    },
+    "dependencies": {
+        "react": "^18"
+    }
+}
