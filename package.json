@@ -1,7 +1,7 @@
 {
     "name": "bun-typescript-react-tailwind-package",
-    "module": "src/index.ts",
-    "type": "module",
+    "main": "dist/index.js",
+    "types": "dist/index.d.ts",
     "scripts": {
         "build": "bun build.ts",
         "watch": "bun --watch build.ts"
